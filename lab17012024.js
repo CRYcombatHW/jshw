@@ -146,11 +146,11 @@ function task9() {
 	let score = 0;
 
 	answer = prompt("What gun mounted on an american F15A jet fighter?\nA: M61A1\nB: M61A2\nC: M61A3");
-	if (answer == "A") score++;
+	if (answer == "A" || answer == "a") score++;
 	answer = prompt("What fox code coresponds to launch of AIM-7 american semi active radar homing air to air missile?\nA: Fox one\nB: Fox two\nC: Fox three");
-	if (answer == "A") score++;
+	if (answer == "A" || answer == "a") score++;
 	answer = prompt("Whitch of these planes have variable-sweep wings?\nA: F-105\nB: F-106\nC: F-111");
-	if (answer == "C") score++;
+	if (answer == "C" || answer == "c") score++;
 
 	alert(`Your total score is ${score}`);
 }
